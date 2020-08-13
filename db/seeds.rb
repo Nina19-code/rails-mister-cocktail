@@ -11,3 +11,9 @@
 
   Ingredient.create(name: name)
 end
+
+5.times do
+  name = Faker::Artist.name
+
+  Cocktail.create(name: name)
+end
